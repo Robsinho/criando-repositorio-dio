@@ -1,0 +1,74 @@
+ O que é qualidade software ?
+é um processo que faz parte do ciclo de vida do software, e avaliar a qualidade do software e reduzir o riso de falha na operação
+
+Um BUG
+Os bugs são inevitaveis, por isso devemos testar para não chegar faze produção e o custo seria muito alto
+===================================================
+
+Como testar um software parte 1
+Planejar
+Planejamento desdo inicio do ambiente e e cenarios masi macro
+
+projetar
+Desenhar cada caso de teste e olhar qual melhor tecnica a ser utilizada e planejar qual será metodo a ser ultilizado
+
+Executar
+Executar o softeare e reportar erros
+
+Entregar
+entragar as evidencias dos testes, casos de testes, scripts de testes e toda documentação gerada status report
+
+Testes Estáticos
+São testes realizados antes de executar o software
+verificação de diagramas
+Códigos
+Plano de Testes
+Especificações de testes
+Script de Testes
+Manual do Usuário
+
+Planejar
+Leitura dos requisitos:
+Entrega do analista de requisitos, qualquer documento que sirva de entrada para fazer o  levantamento dos cenarios testes
+
+Levantamento de dúvidas:
+Possiveis duvidas, algo que não deu certo, algum BUG de Requisito
+
+Ideias de teste:
+Lista de cenarios e casos testes a parte da leitura dos requisitos
+
+Estimativas:
+LEvando em conta a complexidade do software e experiencia do QA
+
+Projetar
+Nome/ Titulo
+Objetivo
+Pré-condição
+Passo a Passo
+Resultado esperado
+============================================================
+
+Como testar um software parte 2
+
+Planejar
+Existem  diversas Tecnicas ultilizadas
+para se gerar casos de testes
+
+Paticipação por equivalência(Equivalence Partition):
+O Valor limite(bordas extremas de uma partição são uma área em que os testes podem gerar defeitos.
+Os testes podem ser desenhados para cobrir tanto os valores validos, quanto invalidos.
+Deve ser feito um caso de teste para cada valor limite.
+Tecnica é executada da seguinte forma:
+Identificar as partições equivalentese os ranges de valores relacionados.
+Identificar os valores máximos e mínimos(resultados em partições validas e invalidas).
+Desenvolver as condições de testes para cada valor limite identificado.
+ 
+
+Analise do valor limite (Boundary value analysis)
+
+Tabela de Decisão (Decision Table)
+Teste por transição de Estados (States Transitioning) Testing)
+
+==============================================================
+Até quando testar
+Quando atingir uma confiança nos requisitos, quando os criterios de enceramento forem atigindos ou quando ocusto para identificação dos defeitos compensam mais.
